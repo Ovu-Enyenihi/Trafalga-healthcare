@@ -7,10 +7,6 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-footer {
-    margin-top: 10%;
-}
-
 section {
     margin-bottom: 10%;
 }
@@ -23,10 +19,44 @@ li {
     padding-left: 20px;
 }
 
+.nav-bar-style {
+    margin-right: 5%;
+}
+
+.nav-links {
+    font-size: 18px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+
+.virtual-section {
+    position: relative;
+}
+
+.element-1 {
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+}
+
 .virtual-section p,
 h1,
 a {
     padding-top: 30px;
+}
+
+.virtual-section h1 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.virtual-section p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
 }
 
 .btn {
@@ -36,8 +66,103 @@ a {
     padding: 10px 20px;
 }
 
+.our-services-section {
+    position: absolute;
+}
+
+.our-services-header {
+    text-align: center;
+}
+
+.our-services-header h2 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.our-services-p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.card-header-style {
+    font-size: 24px;
+    color: #000000;
+}
+
+.card-decoration{
+    margin: 10px 0px;
+    height: 250px;
+    background: #FFFFFF;
+    /* border: none; */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.card-txt-style {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.btn-2 {
+    border: 1px solid  #458FF6;
+    border-radius: 55px;
+    padding: 5px 20px;
+}
+
+.lhcp-header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.lhcp-p {
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/* .btn-3 {
+    border: 1px solid  #458FF6;
+    border-radius: 55px;
+} */
+
+.download-header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.download-p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
 .img-gallery {
     text-align: center;
+}
+
+.img-gallery-header {
+    font-size: 36px;
+    color: #000000;
+    margin: 70px 0px;
+}
+
+.gallery-card-header {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.gallery-p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
 }
 
 .card-img-size {
@@ -45,34 +170,8 @@ a {
     padding: 20px 0 0 20px;
 }
 
-.our-services-header {
-    text-align: center;
-}
-
-.btn-2 {
-    color: #458FF6;
-    background-color: #ffffff;
-    border-radius: 55px;
-}
-
-.btn-wrapper {
-    text-align: center;
-}
-
-.card-decoration{
-    margin: 10px 0px;
-    height: 250px;
-    border-radius: 20px;
-}
-
 .card-style {
     border: none;
-}
-
-.img-gallery-header {
-    font-size: 36px;
-    color: #000000;
-    margin: 70px 0px;
 }
 
 .img-border {
