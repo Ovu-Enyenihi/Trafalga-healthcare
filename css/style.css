@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+section {
+    margin-bottom: 10%;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar-brand img {
+    padding-left: 20px;
+}
+
+.virtual-section p,
+h1,
+a {
+    padding-top: 30px;
+}
+
+.btn {
+    background-color:  #458FF6;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.img-gallery {
+    text-align: center;
+}
+
+.card-img-size {
+    width: 50px;
+    padding: 20px 0 0 20px;
+}
+
+.our-services-header {
+    text-align: center;
+}
+
+.btn-2 {
+    color: #458FF6;
+    background-color: #ffffff;
+    border-radius: 55px;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.card-decoration{
+    margin: 10px 0px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.card-style {
+    border: none;
+}
+
+.img-gallery-header {
+    font-size: 36px;
+    color: #000000;
+    margin: 70px 0px;
+}
+
+.img-border {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.view-all-btn {
+    /* border: 1px solid #458FF6; */
+    border-radius: 55px;
+    text-align: center;
+}
+
+.footer-style {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #ffffff;
+}
+
+.footer-container {
+    padding-top: 150px;
+    align-self: center;
+}
